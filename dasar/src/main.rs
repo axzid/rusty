@@ -19,6 +19,7 @@ fn variable_rust(){
 
 }
 
+
 // number
 #[test]
 fn variable_number(){
@@ -82,6 +83,25 @@ fn variable_array(){
 
     println!("{:?}", list_pekerja);
     println!("{:?}", list_umur_pekerja);
+
+}
+
+#[test]
+fn expressio_ncontrol(){
+    let mut counter = 1;
+    loop {
+        println!("Hello, world! {counter}");
+        if counter == 10 {
+            break;
+        }
+        counter += 1;
+
+
+    }
+
+
+
+
 
 }
 
